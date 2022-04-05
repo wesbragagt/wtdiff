@@ -1,5 +1,7 @@
 /**
- * Extract the difference between two objects*/
+ * Extract the difference between two objects
+* @param previous Record<string ,any>
+* @param next Record<string, any>*/
 export function extractChanges(
   previous: Record<string, any> = {},
   next: Record<string, any> = {},
