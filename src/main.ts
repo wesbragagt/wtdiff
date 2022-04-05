@@ -1,14 +1,14 @@
 /**
-* Extract the difference between two objects*/
+ * Extract the difference between two objects*/
 export function extractChanges(
   previous: Record<string, any> = {},
   next: Record<string, any> = {},
   newObj = {}
 ) {
   const isObject = (obj = {}) =>
-    obj instanceof Object && typeof obj === "object";
+    obj instanceof Object && typeof obj === 'object';
   if (!isObject(previous) || !isObject(next)) {
-    throw new Error("One of the arguments passed is not an object");
+    throw new Error('One of the arguments passed is not an object');
   }
   for (let key in previous) {
     if (key in previous && key in next) {
