@@ -4,10 +4,12 @@
   "main": "./dist/main.js",
   "version": "1.0.0",
   "license": "MIT",
+  "keywords": ["updates", "diff", "changes", "objects", "node"],
   "scripts": {
     "build": "tsup src/main.ts",
     "test": "jest --runInBand",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "format": "prettier --write ./{src,tests}/**"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
