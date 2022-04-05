@@ -6,10 +6,12 @@
   "license": "MIT",
   "scripts": {
     "build": "tsup src/main.ts",
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "prepare": "husky install"
   },
   "devDependencies": {
     "@types/jest": "^27.4.1",
+    "husky": "^7.0.4",
     "jest": "^27.5.1",
     "prettier": "^2.6.2",
     "ts-jest": "^27.1.4",
