@@ -2,9 +2,15 @@
   "name": "wtdiff",
   "author": "wesbragagt",
   "main": "./dist/main.js",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
-  "keywords": ["updates", "diff", "changes", "objects", "node"],
+  "keywords": [
+    "updates",
+    "diff",
+    "changes",
+    "objects",
+    "node"
+  ],
   "scripts": {
     "build": "tsup src/main.ts",
     "test": "jest --runInBand",
