@@ -2,8 +2,11 @@
   "name": "wtdiff",
   "author": "wesbragagt",
   "main": "./dist/main.js",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "license": "MIT",
+  "files": [
+    "dist"
+  ],
   "keywords": [
     "updates",
     "diff",
