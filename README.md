@@ -1,6 +1,6 @@
 # WTDiff!
 
-Spanned from a problem I had at work while dealing with deciding what to send as part of the payload?
+Spanned from a problem I had at work while dealing with deciding what to send as part of the payload.
 
 Rule of thumb from experience, just send what's necessary to make the update.
 
@@ -49,3 +49,7 @@ console.log(changes)
   }
 */
 ```
+
+## Supporting
+- [x] Nested objects 
+- [] Nested arrays

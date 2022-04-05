@@ -1,12 +1,5 @@
-// Create a library lightweight for extracting properties from two objects
-
-// names wtdiff(what the diff?)
-
-// wtdiff solves
-
-// problem comparing state changes between two objects and outputting an object with only the changed properties
-// TODO: add real tests
-
+/**
+* Extract the difference between two objects*/
 export function extractChanges(
   previous: Record<string, any> = {},
   next: Record<string, any> = {},

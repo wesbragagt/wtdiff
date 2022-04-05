@@ -33,7 +33,6 @@ describe("extractChanges", () => {
       },
     };
     const actual = wtdiff.extractChanges(obj1, obj2);
-    console.log(actual);
     expect(actual).toStrictEqual({
       profile: { contact: { phone: obj2.profile.contact.phone } },
     });
