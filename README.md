@@ -11,7 +11,6 @@ KISS - Keep it simple and stupid
 1. We need to keep changes predictable
 2. Our consuming source does not need to know about what has not changed
 3. The consuming source should simply run the updates based on all the fields sent
-4. Now if you need some meta data for whatever reason include it as part of a different property, for example meta???
 
 ## Let's get to it
 
