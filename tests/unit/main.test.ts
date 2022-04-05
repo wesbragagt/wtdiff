@@ -1,6 +1,12 @@
 import wtdiff from '../../src/main';
 
 describe('extractChanges', () => {
+  it('throws error when passing anything but an object as previous or next arguments', () => {
+    expect(
+      //@ts-ignore
+      () => wtdiff.extractChanges('dude', 2)
+    ).toThrowError();
+  });
   it('outputs an object with only the changed properties', () => {
     const obj1 = {
       name: 'foobar',
